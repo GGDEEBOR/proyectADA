@@ -1,0 +1,24 @@
+graph {
+rankdir = LR
+A--B[label = 5, weight = 5];
+A--C[label = 15, weight = 15];
+A--E[label = 4, weight = 4];
+
+B--A[label = 5, weight = 5];
+B--C[label = 10, weight = 10];
+B--D[label = 5, weight = 5];
+
+C--B[label = 10, weight = 10];
+C--D[label = 3, weight = 3];
+C--A[label = 15, weight = 15];
+C--E[label = 6, weight = 6];
+
+D--C[label = 3, weight = 3];
+D--B[label = 5, weight = 5];
+D--E[label = 1, weight = 1];
+
+E--D[label = 1, weight = 1];
+E--A[label = 4, weight = 4];
+E--C[label = 6, weight = 6];
+
+}
