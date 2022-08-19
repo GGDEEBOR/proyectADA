@@ -1,19 +1,18 @@
-graph {
+digraph {
 rankdir = LR
-A--B[label = 7, weight = 7];
-A--C[label = 15, weight = 15];
+1 -> 2[label = 113, weight = 113];
+1 -> 4[label = 258, weight = 258];
 
-B--A[label = 7, weight = 7];
-B--C[label = 5, weight = 5];
+2 -> 3[label = 102, weight = 102];
+2 -> 4[label = 102, weight = 102];
+2 -> 5[label = 102, weight = 102];
 
-C--B[label = 5, weight = 5];
-C--D[label = 1, weight = 1];
-C--A[label = 15, weight = 15];
-C--E[label = 6, weight = 6];
+3 -> 5[label = 212, weight = 212];
 
-D--C[label = 1, weight = 1];
-D--E[label = 3, weight = 3];
+4 -> 2[label = 102, weight = 102];
+4 -> 3[label = 214, weight = 214];
+4 -> 5[label = 30, weight = 30];
 
-E--D[label = 3, weight = 3];
-E--C[label = 6, weight = 6];
+5 -> 3[label = 212, weight = 212];
 
+}
