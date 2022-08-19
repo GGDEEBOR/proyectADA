@@ -62,18 +62,6 @@ int main(){
 }
 /*
 input 
-50 56
-1 2 113
-1 4 258
-2 3 102
-2 4 94
-2 5 102
-3 5 212
-4 2 102
-4 3 214
-4 5 30
-5 3 212
-
 5 10
 1 2 113
 1 4 258
@@ -85,46 +73,8 @@ input
 4 3 214
 4 5 30
 5 3 212
-
-
-
-
-
-Lima-Arequipa=1h55m
-Lima-La libertad=1h42m
-Lima-Piura=1h49m
-Lima-Tacna=2h10m
-Lima-Cajamarca=1h24m
-Lima-Loreto=1h49m
-Lima-San Martin=1h30m
-Lima-Madre de Dios=2h2m
-Lima-Cuzco=2h16m
-Lima-Ayacucho=1h19m
-
-Arequipa-Lima=1h30m
-Arequipa-Cuzco=1h5m
-
-Piura-Lima=1h28m
-
-La libertad-Lima=1h31m
-
-Tacna-Lima=2h8m
-
-Cajamarca-Lima=1h24m
-
-Loreto-Lima=1h56m
-
-San Martin-Lima=1h29m
-
-Madre de Dios-Lima=1h54m
-
-Cuzco-Lima=2h45m
-
-dot -Tpdf graph.dot -o graph.pdf
-*/
-
-
 /*
+
 input 2
 21 34
 1 2 100
